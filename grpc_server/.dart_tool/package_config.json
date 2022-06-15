@@ -341,10 +341,10 @@
       "name": "grpc_server",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "2.4"
+      "languageVersion": "2.12"
     }
   ],
-  "generated": "2022-06-15T09:54:28.414998Z",
+  "generated": "2022-06-15T11:40:38.457022Z",
   "generator": "pub",
   "generatorVersion": "2.17.3"
 }

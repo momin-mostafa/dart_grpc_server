@@ -2,7 +2,7 @@ name: grpc_server
 version: 1.0.0
 description: A new Get Server application.
 environment: 
-  sdk: '>=2.4.0 <3.0.0'
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies: 
   get_server: 1.1.1
