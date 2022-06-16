@@ -157,16 +157,21 @@ class Items extends $pb.GeneratedMessage {
 class Category extends $pb.GeneratedMessage {
   static final $pb.BuilderInfo _i = $pb.BuilderInfo(const $core.bool.fromEnvironment('protobuf.omit_message_names') ? '' : 'Category', createEmptyInstance: create)
     ..a<$core.int>(1, const $core.bool.fromEnvironment('protobuf.omit_field_names') ? '' : 'id', $pb.PbFieldType.O3)
+    ..aOS(2, const $core.bool.fromEnvironment('protobuf.omit_field_names') ? '' : 'name')
     ..hasRequiredFields = false
   ;
 
   Category._() : super();
   factory Category({
     $core.int? id,
+    $core.String? name,
   }) {
     final _result = create();
     if (id != null) {
       _result.id = id;
+    }
+    if (name != null) {
+      _result.name = name;
     }
     return _result;
   }
@@ -199,6 +204,15 @@ class Category extends $pb.GeneratedMessage {
   $core.bool hasId() => $_has(0);
   @$pb.TagNumber(1)
   void clearId() => clearField(1);
+
+  @$pb.TagNumber(2)
+  $core.String get name => $_getSZ(1);
+  @$pb.TagNumber(2)
+  set name($core.String v) { $_setString(1, v); }
+  @$pb.TagNumber(2)
+  $core.bool hasName() => $_has(1);
+  @$pb.TagNumber(2)
+  void clearName() => clearField(2);
 }
 
 class Categories extends $pb.GeneratedMessage {
